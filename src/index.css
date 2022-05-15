@@ -77,13 +77,17 @@ h6 {
 
 p {
     font-size: 1.1rem;
-    margin-top: 0;
+    margin-top: 0;    
+}
+
+.aboutPara {
+    text-align: justify;    
 }
 
 a {
     color: var(--tertiary);
     text-decoration: none;
-    font-weight: bold;
+    
 }
 
 .flex-row {
@@ -160,7 +164,7 @@ header a {
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.564)) , url("assets/cover/cover.jpg") no-repeat center / cover;   
     width: 100%;
-    height: 30vh;    
+    height: 15vh;    
     background-size: cover;
     background-repeat: no-repeat;
     /* background-size: 100%; */
@@ -177,17 +181,24 @@ header {
 }
 
 header h2 {
+    font-family: Roboto,sans-serif;
     font-weight: bold;
     font-size: 36px;    
     margin: 0;
-    padding: 5px 10px 5px 40px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px 10px auto 40px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     background-color: var(--primary-color);
 }
 
-header a {
+header h2 a:hover {
     text-decoration: none;
-    color: #191e1e;    
+    color: #2d3333;
+}
+
+header a {    
+    text-decoration: none;
+    color: #191e1e;  
+    height: auto;  
 }
 
 header nav a{    
@@ -216,6 +227,10 @@ header nav ul li a{
     border-bottom: --primary-color solid;
     margin: 10px;
     font-size: 24px;
+}
+
+.avatar {
+    border-radius: 150px;
 }
 
 /*header style end*/
@@ -420,6 +435,37 @@ footer {
 
 footer a {
     padding: 0 20px;
+}
+
+.fa-github::before {
+    color: rgb(59, 59, 59);
+}
+
+.fa-github:hover:before {
+    color: rgb(0, 0, 0);
+}
+
+.fa-linkedin::before {
+    color: rgb(224, 225, 235);
+}
+
+.fa-linkedin:hover:before {
+    color: rgb(0, 0, 162);
+}
+
+.automationBadge {
+    height: 70px;
+    width: 70px;
+    background-color: #e1e7e7;
+    border-radius: 150px;
+}
+
+.automationBadge::before {
+    box-shadow: none;
+}
+
+.automationBadge:hover:before {
+    box-shadow: #000000;
 }
 
 .navActive {

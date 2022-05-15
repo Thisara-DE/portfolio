@@ -20,8 +20,8 @@ function App() {
 
   return (
     <div>
-      <Header/>
-      <main>
+      <Header tabs={tabs}/>
+      <main>        
         <About />
       </main>
       <Footer />
