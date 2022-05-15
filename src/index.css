@@ -5,10 +5,10 @@ main {
 }
 
 :root {
-    --primary-color: #79c1c4;
+    --primary-color: #929494;
     --secondary-color: #191e1e;
     --tertiary: #B12704;
-    --light: #fafafa;
+    --light: #ffffff;
     --dark: #000000;
     --darker: #111111;
     --error: rgb(228, 46, 1);
@@ -101,6 +101,10 @@ a {
 
 .flex-end {
     justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
 }
 
 .mx-1 {
@@ -203,6 +207,7 @@ header a {
 
 header nav a{    
     margin: 10px;
+    text-decoration: none;
 }
 
 header nav ul {
@@ -227,6 +232,7 @@ header nav ul li a{
     border-bottom: --primary-color solid;
     margin: 10px;
     font-size: 24px;
+    
 }
 
 .avatar {
@@ -426,6 +432,61 @@ header nav ul li a{
 /* Styling for About me, work and contact info end*/
 
 
+.contactForm {
+    width: 40%;    
+    border-radius: 5px;
+    background-color: #d4d2d2;
+    padding: 20px;
+}
+
+.contactForm textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+.contactForm label {    
+    color: #000000;
+    font-weight: bolder;
+    padding-right: 50px;
+    display: block;
+}
+
+.contactForm input {
+    font-size: 1rem;
+    padding: 0.25rem;
+    box-sizing: border-box;
+    border: 1px solid var(--dark);
+    outline: none;
+    border-radius: 3px;
+    transition: box-shadow 0.2s;
+    width: 50%;
+}
+
+.contactForm input:focus {
+    border: 1px solid var(--dark);
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+.contactForm-submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contactForm-submit:hover {
+    background-color: #2a642d;
+}
+
 footer {
     text-decoration: none;
     align-items: center;
@@ -469,7 +530,9 @@ footer a {
 }
 
 .navActive {
-    color: var(--secondary);
+    color: teal;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
