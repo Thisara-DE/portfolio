@@ -2,6 +2,7 @@ import React from "react";
 
 
 function Portfolio() {
+    // eslint-disable-next-line no-unused-vars
     const projects = [
         {
             name: 'Deep thoughts',
