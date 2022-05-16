@@ -16,8 +16,6 @@ function App() {
 
   const [currentTab, setCurrentTab] = useState(tabs[0]);
 
-  console.log(currentTab);
-
   useEffect(() => {
     // updating the document title to match the current tab
     document.title = `Thisara-DE/ ${currentTab}`

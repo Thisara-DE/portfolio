@@ -8,7 +8,7 @@ function Nav(props) {
         <nav>
             <ul>                               
                 {tabs.map((tab, i) => (
-                    <li className={`${currentTab === tab && 'navActive'}`} href={`#${tab}`} key={2}>
+                    <li className={`${currentTab === tab && 'navActive'}`} href={`#${tab}`} key={i}>
                         <span data-testid={tab} onClick={() => {setCurrentTab(tab)}}> {capitalizeFirstLetter(tab)} </span>
                     </li>
                 ))}
