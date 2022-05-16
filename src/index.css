@@ -543,13 +543,21 @@ footer {
     text-decoration: none;
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     position: fixed;
     bottom: 0;
+    flex-direction: column;
 }
 
 footer a {
     padding: 0 20px;
+    display: block;
+}
+
+.badge-container {
+    display: flex;
+    align-items: center;
+    
 }
 
 .fa-github::before {
@@ -581,6 +589,11 @@ footer a {
 
 .automationBadge:hover:before {
     box-shadow: #000000;
+}
+
+.copyright {
+    display: inline-block;
+
 }
 
 .navActive {
