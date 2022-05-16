@@ -3,7 +3,7 @@ import resume from '../../assets/Resume_Thisara.pdf'
 
 function Resume() {
     return (
-        <div className="my-2">
+        <div id="Resume" className="my-2">
             <h1>Resume</h1>
 
             <p className="my-4">Download my <a target='_blank' rel='noreferrer' href={resume}>resume</a></p>

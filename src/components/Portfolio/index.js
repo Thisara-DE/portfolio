@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function Portfolio() {
     // eslint-disable-next-line no-unused-vars
     const projects = [
@@ -30,40 +29,38 @@ function Portfolio() {
         },
         {
             name: 'Employee CMS',
-            github: 'https://github.com/Thisara-DE/employee-tracker',
-            prod: '',
+            github: 'https://github.com/Thisara-DE/employee-tracker',            
             img: '../../assets/project-cover/5.jpg'
         },
         {
             name: 'Professional README Generator',
-            github: 'https://github.com/Thisara-DE/professional-README-generator',
-            prod: '',
+            github: 'https://github.com/Thisara-DE/professional-README-generator',            
             img: '../../assets/project-cover/6.jpg'
         }
     ]
 
+    function handleClick(url) {
+        window.open(url, '_blank')
+        
+
+    }
+
     return (
-        <div>
+        <div id="Portfolio">
             <h1>Portfolio</h1>
 
-            <div className="card-container">
-
-            <img src={`../../assets/project-cover/0.jpg`} alt="projectPic"></img>
-            <img src={`../../assets/project-cover/1.jpg`} alt="projectPic"></img>
-            <img src={`../../assets/project-cover/2.jpg`} alt="projectPic"></img>
-            <img src={`../../assets/project-cover/3.jpg`} alt="projectPic"></img>
-            <img src={`../../assets/project-cover/4.jpg`} alt="projectPic"></img>
-            <img src={`../../assets/project-cover/5.jpg`} alt="projectPic"></img>
-                
-
-
-                {/* {projects.map((project, i) => (
-                    <div className="card">
-                        <img src={project[i].img} alt={`project-${project[i].name}`}/>
+            <div className="flex-row card-container">
+                {projects.map((project, i) => (
+                    <div className="mx-3 my-3 card-handler">
+                        <img className="card" src={require(`../../assets/project-cover/${i}.png`)} alt={`projectPic ${i}.jpg`}></img>
+                        <div className="pic-label">
+                            {projects[i].prod ? (<button className="my-2" onClick={() => handleClick(projects[i].prod)}>{project.name}</button>) : 
+                            (<button className="my-2">{`${project.name} - No UI`}</button>)} <br/>
+                            <button onClick={() => handleClick(projects[i].github)}><i class="fa-brands fa-github fa-1x"></i>  GitHub</button>
+                        </div>
                     </div>
-                ))} */}
-                
-
+                    
+                ))}
             </div>
         </div>
     )

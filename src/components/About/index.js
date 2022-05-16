@@ -4,7 +4,7 @@ import avatar from "../../assets/avatar.png"
 function About() {
 
     return (
-        <section className="my-2 py-4 aboutSection">
+        <section id="About me" className="my-2 py-4 aboutSection">
             <h1 className="my-2" id="about">About me</h1>
             <img className="avatar my-2" src={avatar} alt="profilePic"></img>
             <p className="my-3 aboutPara">

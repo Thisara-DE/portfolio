@@ -7,6 +7,7 @@ import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume';
+import { capitalizeFirstLetter } from './utils/helpers';
 
 
 
@@ -18,7 +19,7 @@ function App() {
 
   useEffect(() => {
     // updating the document title to match the current tab
-    document.title = `Thisara-DE/ ${currentTab}`
+    document.title = `Thisara-DE - ${capitalizeFirstLetter(currentTab)}`
   })
 
   return (
