@@ -29,6 +29,11 @@ function Resume() {
                 <li>REST</li>
                 <li>GraphQL</li>
             </ul>
+            <h3>Testing</h3>
+            <ul>
+                <li>Jest</li>
+                <li>Insomnia</li>                
+            </ul>
         </div>
     )
 }
