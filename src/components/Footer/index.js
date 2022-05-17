@@ -5,8 +5,8 @@ import UI from '../../assets/uiPath.png'
 
 const Footer = () => {
     return (
-        <footer className="w-100 mt-auto bg-secondary py-1">
-            <div className='badge-container my-2'>            
+        <footer className="w-100 mt-auto bg-secondary">
+            <div className='badge-container'>            
                 <a href='https://github.com/Thisara-DE' target='_blank' rel='noreferrer'>
                     <i className="fa-brands fa-github fa-4x"></i>
                 </a>

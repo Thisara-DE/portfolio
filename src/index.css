@@ -352,8 +352,13 @@ header nav ul li a{
     cursor: pointer;
 }
 
+.pic-label {
+    align-self: center;
+}
+
 .pic-label button:hover .fa-github:before {
-    color: white
+    color: white;
+    
 }
 
 .card {
@@ -363,45 +368,45 @@ header nav ul li a{
     
 }
 
-.card:hover {
-    transition: .5s ease;
-    margin: 20px;
-    opacity: 1;
-    transform: scale(1.2);
-    z-index: 1;
-    
-}
-
 .card-container {
     position: relative;
     display: flex;
 }
 
-.main-project {
-    flex: 2 100%;
-    border: 3px var(--primary-color) solid;
-    order: 1;    
-    padding: 400px 300px 15px 0;
-    margin: 10px 0 0 0;
-    /* background-image: url(../css/main-project.png); */
-    background-size: cover;
-    opacity: 0.75;                  
+.card-handler {
+    position: relative;
+    text-align: center;
+    width: auto;  
+    margin: 20px;  
 }
 
-.main-project:hover {
+.tech-list {
+    width: fit-content;
+    flex-wrap: wrap;    
+}
+
+.tech-list p{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white;
+    background-color: #B12704;
+    font-size: 0.8rem;       
+    text-align: left;
+    margin: 0;    
+    max-width: inherit;  
+    border-radius: 3px;  
+    padding: 2px;
+}
+
+.card-handler:hover,
+.tech-list {
+    transition: .5s ease;    
     opacity: 1;
+    transform: scale(1.1);
+    z-index: 0;    
 }
 
-.secondary-projects {
-    display: flex;   
-    margin: 10px auto; 
-    width: 100%;
-    /* padding: 10px; */
-    order: 2;     
-    flex: 1; 
-    flex-wrap: wrap;
-    justify-content: space-between;      
-}
 
 .project {    
     border: 3px var(--primary-color) solid;
@@ -557,7 +562,7 @@ footer a {
 .badge-container {
     display: flex;
     align-items: center;
-    
+    margin-top: 15px;
 }
 
 .fa-github::before {
