@@ -5,7 +5,7 @@ function Header(props) {
     
     return(                   
         <h2 className="px-5 py-2">
-            <a className=" flex-row py-2" href='/'>                    
+            <a className=" flex-row py-2" href='/portfolio'>                    
                 Thisara Dhammika Eranga
             </a>
         </h2>    
