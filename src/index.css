@@ -1,5 +1,5 @@
 main {
-    margin: 30px auto 30px auto;
+    margin: 30px auto 200px auto;
 	max-width: 90%;
     padding: 30px 30px; 
     background-color: #e1e7e7;  
@@ -555,7 +555,8 @@ footer {
     text-decoration: none;
     align-items: center;
     display: flex;
-    justify-content: center;    
+    justify-content: center;   
+    height: 150px; 
     position: fixed;
     bottom: 0;
     flex-direction: column;
