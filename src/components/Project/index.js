@@ -19,7 +19,7 @@ function Project(props) {
                     <div className="pic-label">
                         {projects[i].prod ? (<button className="my-2" onClick={() => handleClick(projects[i].prod)}>{project.name}</button>) : 
                         (<button className="my-2">{`${project.name} - No UI`}</button>)} <br/>
-                        <button onClick={() => handleClick(projects[i].github)}><i class="fa-brands fa-github fa-1x"></i>  GitHub</button>
+                        <button onClick={() => handleClick(projects[i].github)}><i className="fa-brands fa-github fa-1x"></i>  GitHub</button>
                     </div>
                 </div>    
             ))}
