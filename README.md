@@ -1,55 +1,118 @@
+# 🎨 Portfolio-TDE
 
-# Portfolio-TDE
-## Description
-Hello Word! Please feel free to explore my professional portfolio website. In here you can see a highlight of my projects along with the respective github repos.
+> A modern professional portfolio showcasing my projects and work
 
+## ✨ Overview
 
+Welcome to my professional portfolio website! Here you'll find a curated selection of my best projects, each with links to the source code and live demos. Feel free to explore and get in touch if you have any questions.
 
-<br>
+[**Visit the Live Portfolio**](https://thisara-de.github.io/portfolio/) →
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)  
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+---
 
-<br>
+## 🛠 Tech Stack
 
-<img src="src/assets/screenshots/screenshot.png" alt="Picture of the website's landing page" />
+<div align="center">
 
+| Technology | Purpose |
+|-----------|---------|
+| **React.js** | UI Framework |
+| **Bootstrap** | Responsive Design |
+| **JavaScript** | Logic & Interactivity |
+| **Node.js** | Runtime Environment |
+| **CSS** | Styling & Animations |
 
-## Deployed website
+</div>
 
-https://thisara-de.github.io/portfolio/
+---
 
-<br>
+## 📊 Language Composition
 
-## Usage
-This project is using following technologies: <br><br>
-Node.js,  JavaScript, React.js,  Bootstrap
+```
+JavaScript  ████████████████████████░░░░░░░░░ 48.5%
+CSS         ███████████████████░░░░░░░░░░░░░░ 40.5%
+HTML        █████░░░░░░░░░░░░░░░░░░░░░░░░░░░ 11.0%
+```
 
-<br>
+---
 
+## 🚀 Quick Start
 
+### Installation
 
+```bash
+# Clone the repository
+git clone https://github.com/Thisara-DE/portfolio.git
+cd portfolio
 
-<br>
+# Install dependencies
+npm install
+```
 
-## Contributing
-n/a  
+### Usage
 
-<br>
+```bash
+# Start development server
+npm start
 
-## Tests <br>
+# Run tests
 npm test
 
-<br>
+# Build for production
+npm run build
+```
 
-## Questions
-If you have any questions, email me: thisaraeranga@gmail.com
+---
 
-<br>
+## 📸 Preview
 
-## &copy; 2022 by [Thisara-DE](https://github.com/Thisara-DE)
+![Portfolio Landing Page](src/assets/screenshots/screenshot.png)
+
+---
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── src/
+│   ├── assets/           # Images and static files
+│   ├── components/       # React components
+│   ├── pages/           # Page components
+│   └── App.js           # Main app component
+├── public/              # Static public files
+├── package.json         # Project dependencies
+└── README.md           # This file
+```
+
+---
+
+## 🎯 Features
+
+- ✅ Responsive design that works on all devices
+- ✅ Modern UI with smooth animations
+- ✅ Project showcase with GitHub links
+- ✅ Fast and optimized performance
+- ✅ Easy to customize and extend
+
+---
+
+## 📝 License
+
+© 2022 [Thisara-DE](https://github.com/Thisara-DE). All rights reserved.
+
+---
+
+## 💬 Get In Touch
+
+Have questions or want to collaborate? Feel free to reach out!
+
+📧 **Email**: [thisaraeranga@gmail.com](mailto:thisaraeranga@gmail.com)  
+🔗 **GitHub**: [@Thisara-DE](https://github.com/Thisara-DE)
+
+---
+
+<div align="center">
+
+**Made with ❤️ by Thisara**
+
+</div>
