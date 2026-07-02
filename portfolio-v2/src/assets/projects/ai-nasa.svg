@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="1" stop-color="#1a1440"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg6)"/>
+  <g fill="#e6edf6" opacity="0.7">
+    <circle cx="80" cy="50" r="1.5"/><circle cx="180" cy="90" r="1"/><circle cx="520" cy="60" r="1.5"/>
+    <circle cx="460" cy="120" r="1"/><circle cx="350" cy="40" r="1"/><circle cx="60" cy="200" r="1"/>
+    <circle cx="540" cy="250" r="1.5"/><circle cx="240" cy="60" r="1"/><circle cx="420" cy="290" r="1"/>
+  </g>
+  <g stroke="#818cf8" stroke-opacity="0.5" fill="none">
+    <circle cx="300" cy="170" r="52"/>
+    <ellipse cx="300" cy="170" rx="95" ry="30" transform="rotate(-18 300 170)"/>
+  </g>
+  <circle cx="300" cy="170" r="34" fill="#312e81" fill-opacity="0.6"/>
+  <text x="300" y="176" text-anchor="middle" font-family="monospace" font-size="15" fill="#a5b4fc">NASA RAG</text>
+  <text x="300" y="310" text-anchor="middle" font-family="monospace" font-size="16" fill="#94a3b8">scrape → index → retrieve → answer</text>
+</svg>
