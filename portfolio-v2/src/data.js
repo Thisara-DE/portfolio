@@ -9,8 +9,7 @@ export const profile = {
   email: 'thisara.dhammikaeranga@gmail.com',
   phone: '(320) 316-6458',
   github: 'https://github.com/Thisara-DE',
-  // TODO: replace with your real LinkedIn profile URL
-  linkedin: 'https://www.linkedin.com/in/',
+  linkedin: 'https://www.linkedin.com/in/thisaradh/',
   resume: 'Resume_Thisara.pdf',
   // Formspree form — https://formspree.io/f/mlgyobeq
   formspreeId: 'mlgyobeq',
@@ -118,7 +117,7 @@ export const skills = [
 ];
 
 export const certifications = [
-  { name: 'Building Agentic AI Applications', org: 'Codecademy' },
+  { name: 'Building Agentic AI Applications', org: 'Codecademy' , id: '69B0227DEF'},
   { name: 'SAFe Product Owner / Product Manager', org: 'Scaled Agile', id: '548677176542' },
   { name: 'Certified Scrum Master', org: 'Scrum Alliance' },
   { name: 'Full-Stack Web Development', org: 'University of Minnesota' },
