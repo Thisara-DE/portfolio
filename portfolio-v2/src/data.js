@@ -118,6 +118,7 @@ export const skills = [
 
 export const certifications = [
   { name: 'Building Agentic AI Applications', org: 'Codecademy' , id: '69B0227DEF'},
+  { name: 'AI Fundamentals', org: 'Google · Coursera', id: 'OUBYB5JL3Y64' },
   { name: 'SAFe Product Owner / Product Manager', org: 'Scaled Agile', id: '548677176542' },
   { name: 'Certified Scrum Master', org: 'Scrum Alliance' },
   { name: 'Full-Stack Web Development', org: 'University of Minnesota' },
