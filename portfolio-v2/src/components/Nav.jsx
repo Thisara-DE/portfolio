@@ -1,5 +1,6 @@
 import React from 'react';
 import { profile } from '../data.js';
+import { trackEvent } from '../analytics.js';
 
 const links = [
   ['About', '#about'],
@@ -29,6 +30,7 @@ export default function Nav() {
           href={`${import.meta.env.BASE_URL}${profile.resume}`}
           target="_blank"
           rel="noreferrer"
+          onClick={() => trackEvent('resume-download', 'Resume download (nav)')}
         >
           Resume ↓
         </a>

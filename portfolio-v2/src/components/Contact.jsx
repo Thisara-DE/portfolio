@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { profile } from '../data.js';
+import { trackEvent } from '../analytics.js';
 
 const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -29,6 +30,7 @@ export default function Contact() {
         body: JSON.stringify(form),
       });
       if (!res.ok) throw new Error('send failed');
+      trackEvent('contact-submit', 'Contact form submitted');
       setStatus('sent');
       setForm({ name: '', email: '', message: '' });
     } catch {

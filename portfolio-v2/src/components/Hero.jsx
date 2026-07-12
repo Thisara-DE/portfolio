@@ -1,5 +1,6 @@
 import React from 'react';
 import { profile, stats } from '../data.js';
+import { trackEvent } from '../analytics.js';
 
 export default function Hero() {
   return (
@@ -20,8 +21,12 @@ export default function Hero() {
             href={`${import.meta.env.BASE_URL}${profile.resume}`}
             target="_blank"
             rel="noreferrer"
+            onClick={() => trackEvent('resume-download', 'Resume download (hero)')}
           >
             View Resume
+          </a>
+          <a className="btn btn-accent-outline" href="#contact">
+            Want to talk? →
           </a>
           <a className="btn btn-outline" href={profile.github} target="_blank" rel="noreferrer">
             GitHub
@@ -29,10 +34,11 @@ export default function Hero() {
           <a className="btn btn-outline" href="#projects">
             AI Projects ↓
           </a>
-          <a className="btn btn-outline" href="#contact">
-            Get in Touch
-          </a>
         </div>
+        <p className="hero-note">
+          Grabbed my resume? I&apos;d love to know who&apos;s reading —{' '}
+          <a href="#contact">say hello</a>.
+        </p>
         <div className="stats reveal">
           {stats.map((s) => (
             <div className="stat" key={s.label}>

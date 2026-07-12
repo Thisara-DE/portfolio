@@ -13,6 +13,9 @@ export const profile = {
   resume: 'Resume_Thisara.pdf',
   // Formspree form — https://formspree.io/f/mlgyobeq
   formspreeId: 'mlgyobeq',
+  // GoatCounter analytics (free, privacy-friendly) — sign up at goatcounter.com,
+  // pick a site code (e.g. "thisara-de"), and paste it here. Empty = analytics off.
+  goatcounterCode: 'thisara-de',
   summary: [
     'Strategic Product Owner and Product Manager with 11+ years of experience driving digital transformation and full lifecycle product delivery in enterprise banking environments. Proven success leading Agile teams, implementing SAFe frameworks, and aligning product roadmaps with business goals.',
     'What sets me apart: I speak both languages. As a certified full-stack developer (React, Node.js, REST/GraphQL APIs), I collaborate with engineering teams at the technical level — reviewing API designs in Swagger, testing endpoints in Postman, and translating business requirements into designs developers can build without ambiguity.',
