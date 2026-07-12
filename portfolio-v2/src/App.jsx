@@ -8,6 +8,7 @@ import Projects from './components/Projects.jsx';
 import Credentials from './components/Credentials.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
+import BackToTop from './components/BackToTop.jsx';
 
 // Reveal-on-scroll: adds .visible to any .reveal element entering the viewport
 function useReveal() {
@@ -62,6 +63,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 }
