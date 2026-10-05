@@ -221,21 +221,21 @@ export const projects = [
     name: 'Perspective News',
     description: 'Full-stack news platform that surfaces multiple perspectives on the same story.',
     github: 'https://github.com/ItzGuled/perspective-news',
-    img: cover('6.png'),
+    img: cover('0.png'),
     tech: ['React', 'Node.js', 'Express', 'GraphQL'],
   },
   {
     name: 'Deep Thoughts',
     description: 'Social platform for sharing thoughts, with JWT auth and a GraphQL API.',
     github: 'https://github.com/Thisara-DE/deep-thoughts',
-    img: cover('5.png'),
+    img: cover('1.png'),
     tech: ['React', 'GraphQL', 'Node.js', 'MongoDB'],
   },
   {
     name: 'Gameporium',
     description: 'E-commerce storefront for games built on the MVC pattern with session auth.',
     github: 'https://github.com/Thisara-DE/Gameporium',
-    img: cover('4.png'),
+    img: cover('2.png'),
     tech: ['Handlebars', 'MySQL', 'Sequelize', 'Express'],
   },
   {
@@ -249,7 +249,7 @@ export const projects = [
     name: 'Employee CMS',
     description: 'Command-line content management system for employee records.',
     github: 'https://github.com/Thisara-DE/employee-tracker',
-    img: cover('1.png'),
+    img: cover('5.png'),
     tech: ['Node.js', 'Inquirer', 'MySQL'],
   },
 ];
