@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <linearGradient id="bgs" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="1" stop-color="#2a1530"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bgs)"/>
+  <rect x="70" y="70" width="190" height="170" rx="8" fill="#f5efe0" fill-opacity="0.9" transform="rotate(-4 165 155)"/>
+  <g font-family="monospace" font-size="17" fill="#475569" transform="rotate(-4 165 155)">
+    <text x="88" y="110">S R G M P</text>
+    <text x="88" y="145">P D N S' -</text>
+    <text x="88" y="180">G M P | R S</text>
+    <text x="88" y="215">D. N. S -</text>
+  </g>
+  <path d="M282 155 h44" stroke="#f472b6" stroke-width="3" fill="none"/>
+  <path d="M318 146 l10 9 -10 9" stroke="#f472b6" stroke-width="3" fill="none"/>
+  <rect x="345" y="70" width="190" height="170" rx="8" fill="#1e1b2e" stroke="#f472b6" stroke-opacity="0.6"/>
+  <g font-family="monospace" font-size="17" fill="#fbcfe8">
+    <text x="363" y="110">S R G M P</text>
+    <text x="363" y="145">P D N Ṡ -</text>
+    <text x="363" y="180">G M P | R S</text>
+    <text x="363" y="215">Ḍ Ṇ S -</text>
+  </g>
+  <text x="300" y="300" text-anchor="middle" font-family="monospace" font-size="16" fill="#94a3b8">photo → Claude vision → review → digital score</text>
+</svg>

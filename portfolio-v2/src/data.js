@@ -17,17 +17,17 @@ export const profile = {
   // pick a site code (e.g. "thisara-de"), and paste it here. Empty = analytics off.
   goatcounterCode: 'thisara-de',
   summary: [
-    'Strategic Product Owner and Product Manager with 11+ years of experience driving digital transformation and full lifecycle product delivery in enterprise banking environments. Proven success leading Agile teams, implementing SAFe frameworks, and aligning product roadmaps with business goals.',
-    'What sets me apart: I speak both languages. As a certified full-stack developer (React, Node.js, REST/GraphQL APIs), I collaborate with engineering teams at the technical level — reviewing API designs in Swagger, testing endpoints in Postman, and translating business requirements into designs developers can build without ambiguity.',
-    'Most recently I completed a certification in Building Agentic AI Applications, going hands-on with LLMs, RAG pipelines and their evaluation, and multi-agent systems built with LangChain, CrewAI, and LangGraph — so I can lead AI product initiatives with the same technical fluency I bring to APIs.',
+    'Senior Product Owner with 11+ years turning complex, regulated systems into products teams can ship — core loan accounting, payments, fraud, and data platforms at banks including AgFirst, US Bank, and Capital One. I lead Agile/SAFe teams, own roadmaps end to end, and keep delivery tied to business outcomes.',
+    'What sets me apart: I speak both languages. As a certified full-stack developer (React, Node.js, REST/GraphQL APIs), I work with engineers at the technical level — reviewing API designs in Swagger, testing endpoints in Postman, and writing requirements developers can build without ambiguity.',
+    'Today I build with AI, not just about it. Certified in Building Agentic AI Applications and Beyond Vibe Coding: Engineering Production-Grade AI Code, I ship RAG systems, multi-agent workflows, and a Claude-vision app — using AI coding agents with the guardrails real products need: tests, CI/CD, code review, and security gates. That is the judgment I bring to leading AI product initiatives.',
   ],
 };
 
 export const stats = [
   { value: '11+', label: 'Years in Product & BA roles' },
-  { value: '6', label: 'AI projects shipped — live RAG chatbot, multi-agent systems, n8n workflows' },
+  { value: '4', label: 'Banks where I’ve owned delivery — AgFirst, US Bank, Capital One, Standard Chartered' },
+  { value: '7', label: 'AI projects shipped — RAG, multi-agent systems, a Claude-vision app' },
   { value: 'SAFe', label: 'Certified PO/PM & Scrum Master' },
-  { value: '500+', label: 'Manual file uploads eliminated via one API build' },
 ];
 
 export const experience = [
@@ -37,11 +37,11 @@ export const experience = [
     period: 'Nov 2020 – Present',
     domain: 'Enterprise Banking · Loan Accounting Systems',
     highlights: [
-      'Own product backlogs for the DNA Service Layer, DNA Extract, and ACBS/CLS platforms — delivering cumulative upgrades, maintenance releases, and bank-wide projects (IRS reporting, disaster recovery, nCino/Salesforce integration).',
-      'Optimized IRS data transfer by shipping "IRSConnect" — a UI + API solution that completely eliminated manual upload of 500+ files to the vendor system.',
-      'Led the Fiserv DNA data conversion team, migrating loan accounting data from legacy mainframe systems to Fiserv DNA for the bank and its associations.',
-      'Drove RESTful API development for account maintenance, payments, and loan booking — including event messaging via RabbitMQ for the nCino/Salesforce implementation.',
-      'Spearheaded Agile Scrum adoption: trained 15 staff, established Scrum ceremonies and backlog practices, and implemented a design-first methodology that accelerated quality delivery.',
+      'Own roadmaps and backlogs for the DNA Service Layer, DNA Extract, and ACBS/CLS platforms — sequencing upgrades and maintenance releases alongside bank-wide initiatives (IRS reporting, disaster recovery, nCino/Salesforce, DNA upgrades).',
+      'Led the Fiserv DNA data conversion team, moving loan accounting data off legacy mainframe systems onto Fiserv DNA — owning the backlog, definition of done, and acceptance criteria, and driving mock-conversion milestones with business stakeholders.',
+      'Optimized IRS data transfer through "IRSConnect," a UI-, API-, and service-based application — eliminating manual upload of 500+ files to the vendor system and drastically reducing effort and risk of error.',
+      'Drove design-first RESTful API development for account maintenance, payments, and loan booking — including RabbitMQ event messaging — to power the bank’s nCino/Salesforce implementation, and gave downstream API consumers an Azure DevOps dashboard to track deployments and report issues.',
+      'Led the team’s Agile Scrum adoption: trained 15 staff, established ceremonies and backlog practices, and mentored onshore/offshore analysts on test automation and ETL.',
     ],
   },
   {
@@ -95,7 +95,11 @@ export const experience = [
 export const skills = [
   {
     group: 'AI & Agentic Systems',
-    items: ['Generative AI', 'LLMs', 'NLP', 'RAG', 'RAG Evaluation', 'LangChain', 'LangGraph', 'CrewAI', 'Agent Orchestration', 'Prompt Engineering', 'n8n', 'No-code Agent Workflows'],
+    items: ['Generative AI', 'LLM APIs (Claude, OpenAI)', 'Vision LLMs', 'RAG', 'RAG Evaluation', 'Vector DBs (ChromaDB, Pinecone)', 'LangChain', 'LangGraph', 'CrewAI', 'AutoGen', 'Tool Calling', 'Model Context Protocol (MCP)', 'Prompt Engineering', 'n8n', 'Responsible AI'],
+  },
+  {
+    group: 'AI-Assisted Engineering',
+    items: ['Claude Code', 'Spec-Driven Development', 'AI Code Review', 'Automated Testing (Playwright, pytest)', 'GitHub Actions CI/CD', 'Docker', 'Security Gates'],
   },
   {
     group: 'Product & Agile',
@@ -103,7 +107,7 @@ export const skills = [
   },
   {
     group: 'Development',
-    items: ['JavaScript (ES6+)', 'React', 'Node.js', 'Express', 'REST APIs', 'GraphQL', 'MySQL', 'MongoDB', 'HTML/CSS', 'Git'],
+    items: ['Python', 'FastAPI', 'TypeScript', 'JavaScript (ES6+)', 'React', 'Node.js', 'Express', 'REST APIs', 'GraphQL', 'MySQL', 'MongoDB', 'Git'],
   },
   {
     group: 'Tools & Platforms',
@@ -120,7 +124,8 @@ export const skills = [
 ];
 
 export const certifications = [
-  { name: 'Building Agentic AI Applications', org: 'Codecademy' , id: '69B0227DEF'},
+  { name: 'Beyond Vibe Coding: Engineering Production-Grade AI Code', org: 'Codecademy', id: '6ABEACB55E' },
+  { name: 'Building Agentic AI Applications', org: 'Codecademy', id: '69B0227DEF' },
   { name: 'AI Fundamentals', org: 'Google · Coursera', id: 'OUBYB5JL3Y64' },
   { name: 'SAFe Product Owner / Product Manager', org: 'Scaled Agile', id: '548677176542' },
   { name: 'Certified Scrum Master', org: 'Scrum Alliance' },
@@ -148,6 +153,15 @@ export const projects = [
     live: 'https://nasaragchatbot.streamlit.app/',
     img: cover('ai-nasa.svg'),
     tech: ['Python', 'RAG', 'ChromaDB', 'Groq LLM', 'Streamlit'],
+  },
+  {
+    name: 'SaReGaMaPic',
+    badge: 'AI Vision · Full-stack PWA',
+    description:
+      'Turns photos of handwritten sargam music sheets into faithful digital notation with Claude vision, then puts a human in the loop: a side-by-side correction editor, misread warnings, and transposition across all 12 keys. Google sign-in, per-user data isolation, recognition-accuracy metrics, and a CI/CD pipeline from Dev → UAT → Production.',
+    github: 'https://github.com/Thisara-DE/saregamaPIC',
+    img: cover('ai-saregama.svg'),
+    tech: ['Claude Vision', 'FastAPI', 'React + TypeScript', 'Docker', 'GitHub Actions'],
   },
   {
     name: 'JARVIS — AI Assistant Agent',
@@ -182,6 +196,16 @@ export const projects = [
       'Stateful agent graph built with LangGraph — planning, tool-calling, and reflection loops with conditional branching, plus a no-code workflow variant of the same pattern. Built during the Codecademy Agentic AI certification.',
     img: cover('ai-graph.svg'),
     tech: ['Python', 'LangGraph', 'Tool Calling', 'No-code Workflows'],
+  },
+  {
+    name: 'dateLime',
+    badge: '2026 Rebuild · PWA',
+    description:
+      'Dinner-and-a-movie planner, rebuilt from my 2022 bootcamp app: an audit logged 44 defects, then a ground-up rewrite fixed every one, each guarded by a regression test. Mood-based movie picks, cuisine pairing, a shareable "Admit Two" ticket, optional Google/email accounts, and offline support.',
+    github: 'https://github.com/Thisara-DE/dateLime',
+    live: 'https://thisara-de.github.io/dateLime/',
+    img: cover('datelime.svg'),
+    tech: ['JavaScript (ES modules)', 'Firebase', 'Playwright', 'TMDB API', 'PWA'],
   },
   {
     name: "Tic-Tac-Toe on Rubik's",
@@ -220,14 +244,6 @@ export const projects = [
     github: 'https://github.com/Thisara-DE/tech-chronicle',
     img: cover('3.png'),
     tech: ['Handlebars', 'Node.js', 'MySQL', 'Sequelize'],
-  },
-  {
-    name: 'dateLime',
-    description: 'Date-night planner combining restaurant and event APIs into one itinerary.',
-    github: 'https://github.com/Thisara-DE/dateLime',
-    live: 'https://thisara-de.github.io/dateLime/',
-    img: cover('2.png'),
-    tech: ['JavaScript', 'Bulma', 'Third-party APIs'],
   },
   {
     name: 'Employee CMS',

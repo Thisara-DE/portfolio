@@ -11,8 +11,8 @@ export default function Hero() {
         <p className="hero-tagline">
           <strong>{profile.tagline}</strong> 11+ years driving digital transformation in
           enterprise banking, SAFe-certified and fluent in the APIs my teams build. Latest
-          work: a live NASA RAG chatbot, multi-agent systems with CrewAI and LangGraph, and
-          agentic n8n workflows — all on GitHub.
+          work: a Claude-vision app that digitizes handwritten music, a live NASA RAG chatbot,
+          and multi-agent systems — built with AI to production standards, all on GitHub.
         </p>
         <p className="hero-location">📍 {profile.location}</p>
         <div className="hero-actions">

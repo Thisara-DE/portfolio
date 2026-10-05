@@ -7,9 +7,9 @@ export default function Projects() {
       <div className="container">
         <h2 className="section-title reveal">Projects</h2>
         <p className="section-sub reveal">
-          Hands-on builds — agentic AI applications from my Codecademy certification, and
-          full-stack apps from my University of Minnesota web development certification. Proof
-          I understand what I ask engineering teams to deliver.
+          Hands-on builds — AI applications engineered with tests, CI/CD, and security gates,
+          plus the full-stack apps where I started. Proof I understand what I ask engineering
+          teams to deliver.
         </p>
         <div className="projects-grid">
           {projects.map((p) => (
